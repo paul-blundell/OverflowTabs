@@ -23,7 +23,15 @@ when loading the jQuery ui tabs:
 		overflowTabs: true
 	});
 
-![](https://raw.githubusercontent.com/paul-blundell/OverflowTabs/master/example.png)
+![Example](example.png)
+
+### JSFiddle
+
+This was originally created in May 2014 to meet the needs of a project I was working on at the time. Since then I have modified very little. The plugin was made available on [JSFiddle](http://jsfiddle.net/boreded/2JK7K/10/) and submitted as answer on this [stackoverflow question](http://stackoverflow.com/a/23802234/1290196).
+
+### Disclaimer
+
+This will contain bugs. If you find one, it would be great if you could fix it and send a pull request.
 
 ### License
 
