@@ -1,0 +1,208 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+
+body, html {
+    font-family: Calibri, Verdana, Arial, sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: Ubuntu;
+    line-height: 1.5;
+    margin-bottom: .5em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h1.has-sub {
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 1.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    line-height: 1.4;
+}
+
+p {
+    line-height: 1.4;
+    margin-bottom: .5em;
+}
+
+header {
+    background: rgb(76, 76, 76);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(76, 76, 76, 1) 1%, rgba(63, 63, 63, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgba(76, 76, 76, 1)), color-stop(100%, rgba(63, 63, 63, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(76, 76, 76, 1) 1%, rgba(63, 63, 63, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(76, 76, 76, 1) 1%, rgba(63, 63, 63, 1) 100%);
+    /* Opera11.10+ */
+    background: -ms-linear-gradient(top, rgba(76, 76, 76, 1) 1%, rgba(63, 63, 63, 1) 100%);
+    /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c4c4c', endColorstr='#3f3f3f', GradientType=0);
+    /* IE6-9 */
+    background: linear-gradient(top, rgba(76, 76, 76, 1) 1%, rgba(63, 63, 63, 1) 100%);
+    /* W3C */
+    padding: .2em 1.2em;
+    font-family: Ubuntu;
+    font-size: 1.3em;
+    color: #999;
+    text-shadow: -1px -1px 0 #333;
+    text-align: right;
+    box-shadow: 0 0 50px 20px rgba(0, 0, 0, .1);
+    border-bottom: 1px solid #fff;
+}
+
+header span {
+    margin-left: .3em;
+    font-size: .6em;
+}
+
+main {
+    padding: 20px;
+}
+
+.columns {
+    padding: 2em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 5em;
+    -webkit-column-rule: 1px dashed #ccc;
+    column-count: 2;
+    column-rule: 1px dashed #ccc;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.columns > h2 {
+    -webkit-column-break-before: always;
+}
+
+#switcher {
+    float: right;
+}
+
+.ui-widget {
+    font-size: .8em !important;
+}
+
+.ui-tabs-nav {
+    position: relative;
+}
+
+.ui-tabs .ui-tabs-nav-arrows {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    left: 1px;
+    margin: .1em;
+    padding: 0;
+}
+
+.ui-tabs .ui-tabs-nav-arrows .ui-tabs-arrow-next {
+    float: right;
+}
+
+.ui-tabs .ui-tabs-nav-arrows li {
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    z-index: 1000;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.ui-tabs .ui-tabs-nav-arrows li a {
+    display: block;
+    padding: .7em .1em;
+}
+
+.ui-tabs .ui-tabs-nav-arrows .ui-tabs-arrow-previous {
+    float: left;
+}
+
+.ui-tabs .ui-tabs-scroll-container {
+    position: relative;
+    height: 2.7em;
+    overflow: hidden;
+}
+
+.ui-tabs .ui-tabs-nav-scrollable {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.ui-tabs .ui-tabs-nav-scrollable ul {
+    position: relative;
+    width: 10000px;
+}
+
+.ui-tabs-overflow {
+    position: absolute;
+    z-index: 100;
+    list-style: none;
+    display: block;
+    width: 200px;
+    right: 0;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    min-height: 50px;
+    background: #ececec;
+    padding: 10px;
+}
+
+.ui-tabs-overflow li, .ui-tabs-overflow .ui-state-default {
+    border: 0;
+    clear: both;
+}
+
+.ui-tabs-overflow li:before, .ui-tabs-overflow li:after {
+    border: 0;
+}
+
+.ui-tabs-overflow.hide {
+    visibility: hidden;
+}
+
+.overflow-selector {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    background: #ececec;
+    width: 40px;
+    height: 15px;
+    border: 1px solid #d3d3d3;
+    border-top-left-radius: 5px;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.overflow-selector .total {
+    font-weight: normal;
+}
